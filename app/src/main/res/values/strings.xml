@@ -6,4 +6,8 @@
     <string name="databinding">DataBinding</string>
     <string name="databinding_livedata">DataBinding LiveData</string>
     <string name="sumar">Sumar</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="salvar">Salvar</string>
+    <string name="ver">Ver</string>
 </resources>

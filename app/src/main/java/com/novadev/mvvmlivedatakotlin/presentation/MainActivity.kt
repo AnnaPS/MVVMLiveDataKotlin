@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         btViewModel.setOnClickListener {
             startActivity(Intent(applicationContext, SumActivity::class.java))
         }
+
+        btUserViewModel.setOnClickListener {
+            startActivity(Intent(applicationContext, UserActivity::class.java))
+        }
     }
 }
