@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMLiveDataKotlin</string>
+    <string name="sumar_viewmodel">Sumar ViewModel</string>
+    <string name="user_viewmodel">User ViewModel</string>
+    <string name="live_data">Live Data</string>
+    <string name="databinding">DataBinding</string>
+    <string name="databinding_livedata">DataBinding LiveData</string>
+    <string name="sumar">Sumar</string>
+</resources>

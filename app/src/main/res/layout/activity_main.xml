@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".presentation.MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <Button
+        android:id="@+id/btViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sumar_viewmodel"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btUserViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_viewmodel"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btViewModel"
+        app:layout_constraintTop_toBottomOf="@+id/btViewModel"
+        app:layout_constraintStart_toStartOf="@+id/btViewModel"
+        />
+
+    <Button
+        android:id="@+id/btLiveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live_data"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btUserViewModel"
+        app:layout_constraintTop_toBottomOf="@+id/btUserViewModel"
+        app:layout_constraintStart_toStartOf="@+id/btUserViewModel"
+        />
+
+    <Button
+        android:id="@+id/btDataBinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/databinding"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btLiveData"
+        app:layout_constraintTop_toBottomOf="@+id/btLiveData"
+        app:layout_constraintStart_toStartOf="@+id/btLiveData"
+        />
+
+    <Button
+        android:id="@+id/btDBLABinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/databinding_livedata"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btDataBinding"
+        app:layout_constraintStart_toStartOf="@+id/btDataBinding"
+        app:layout_constraintTop_toBottomOf="@+id/btDataBinding" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
