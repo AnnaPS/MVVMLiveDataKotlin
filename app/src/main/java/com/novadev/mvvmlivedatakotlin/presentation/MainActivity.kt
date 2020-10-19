@@ -22,5 +22,18 @@ class MainActivity : AppCompatActivity() {
         btUserViewModel.setOnClickListener {
             startActivity(Intent(applicationContext, UserActivity::class.java))
         }
+
+        btLiveData.setOnClickListener {
+            startActivity(Intent(applicationContext, LiveDataActivity::class.java))
+        }
+
+        btDataBinding.setOnClickListener {
+            startActivity(Intent(applicationContext, DataBindingActivity::class.java))
+        }
+//
+//        btDBLABinding.setOnClickListener {
+//            startActivity(Intent(applicationContext, DataBindingActivity::class.java))
+//        }
+
     }
 }
