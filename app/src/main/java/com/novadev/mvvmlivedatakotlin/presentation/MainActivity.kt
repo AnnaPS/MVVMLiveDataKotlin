@@ -30,10 +30,10 @@ class MainActivity : AppCompatActivity() {
         btDataBinding.setOnClickListener {
             startActivity(Intent(applicationContext, DataBindingActivity::class.java))
         }
-//
-//        btDBLABinding.setOnClickListener {
-//            startActivity(Intent(applicationContext, DataBindingActivity::class.java))
-//        }
+
+        btDBLABinding.setOnClickListener {
+            startActivity(Intent(applicationContext, DBLivedataActivity::class.java))
+        }
 
     }
 }

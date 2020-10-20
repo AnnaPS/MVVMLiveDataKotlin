@@ -11,4 +11,6 @@
     <string name="salvar">Salvar</string>
     <string name="ver">Ver</string>
     <string name="guardar">Guardar</string>
+    <string name="actualizar_user">Actualizar User</string>
+    <string name="visibilidad">Visibilidad</string>
 </resources>
